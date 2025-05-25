@@ -1,0 +1,7 @@
+[
+  { "title":"Bohemian Rhapsody", "artist":"Queen",           "genre":"Rock" },
+  { "title":"Shape of You",       "artist":"Ed Sheeran",      "genre":"Pop"  },
+  { "title":"Billie Jean",        "artist":"Michael Jackson", "genre":"Pop"  },
+  { "title":"Imagine",            "artist":"John Lennon",     "genre":"Rock" },
+  { "title":"Smells Like Teen Spirit","artist":"Nirvana",     "genre":"Grunge" }
+]

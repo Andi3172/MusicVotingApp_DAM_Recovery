@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome!"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <ListView
+        android:id="@+id/songListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="#CCCCCC"
+        android:dividerHeight="1dp" />
+
+    <!-- Add control buttons -->
+    <Button
+        android:id="@+id/viewHistoryButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Vote History"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#03A9F4"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/viewChartButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Vote Chart"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/startPeerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Peer Session"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#FF9800"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/startClientButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Join Peer Session"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#9C27B0"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/saveWinnerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Top Voted Song"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#607D8B"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

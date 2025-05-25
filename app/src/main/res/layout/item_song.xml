@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- Song Title -->
+    <TextView
+        android:id="@+id/songTitle"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textSize="16sp" />
+
+    <!-- Artist -->
+    <TextView
+        android:id="@+id/songArtist"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:text="Artist"
+        android:textSize="14sp"
+        android:paddingStart="8dp"/>
+
+    <!-- Genre -->
+    <TextView
+        android:id="@+id/songGenre"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:text="Genre"
+        android:textSize="14sp"
+        android:paddingStart="8dp"/>
+
+    <!-- Vote Count -->
+    <TextView
+        android:id="@+id/songVotes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="14sp"
+        android:paddingStart="12dp"/>
+</LinearLayout>

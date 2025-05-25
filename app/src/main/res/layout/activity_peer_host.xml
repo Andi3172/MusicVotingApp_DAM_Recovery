@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 1) List of songs with current vote count -->
+    <ListView
+        android:id="@+id/hostListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:divider="#CCCCCC"
+        android:dividerHeight="1dp" />
+
+    <!-- 2) Scrollable log area -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Server log:"
+        android:textStyle="bold"
+        android:paddingTop="8dp"
+        android:paddingBottom="4dp" />
+
+    <ScrollView
+        android:id="@+id/hostScroll"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#F5F5F5"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/hostLog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Listening on port 8888..."
+            android:textSize="14sp"
+            android:textColor="#333333" />
+    </ScrollView>
+
+    <!-- 3) Button to open the voting UI on a client -->
+    <Button
+        android:id="@+id/joinPeerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Voter UI"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#9C27B0"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

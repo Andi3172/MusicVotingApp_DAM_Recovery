@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MusicVotingApp</string>
+    <string name="welcome_message">Welcome %1$s!</string>
+    <string name="view_history">View History</string>
+    <string name="no_history_yet">No history yet.</string>
+    <string name="welcome">"Welcome "</string>
+    <string name="role">" - Role: "</string>
+    <string name="saved_winner">"Saved winner: "</string>
+    <string name="no_votes_to_save">No votes to save.</string>
+    <string name="server_error">"Server error: "</string>
+    <string name="vote">VOTE:</string>
+    <string name="malformed_vote">"Malformed vote: "</string>
+    <string name="sent_song_list_to_client">Sent song list to client</string>
+    <string name="ignored_duplicate_or_unknown_vote">"Ignored duplicate or unknown vote: "</string>
+</resources>
